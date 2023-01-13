@@ -14,8 +14,9 @@
 
 <a name="rules"></a>
 ### Reglas repositorios
-- Se debe crear un repositorio para cada fuente JAVA
-- Para las fuentes (SQL, Formas y Jasper) se debe crear un repositorio que las englobe en un proyecto. Ejemplo: Fuentes_GestorDocumental
+- Se debe crear un repositorio para cada fuente JAVA, Formas, SQL y Jasper
+- Para los repositorios de las formas, se debe crear el repositorio con el nombre de la forma y se debe subir el txt generado por el object list report y la forma.
+- El object list report se genera seleccionando la forma, y luego ir a la opción del menú ```File -> Administration -> Object List Report```, esto genera el txt en la misma ruta que está la forma. **Nota:** Se debe compilar y guardar el proyecto para que se visualicen los cambios en el object list report, no solo guardar".
 
 <a name="branches"></a>
 ### Ramas
